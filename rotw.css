@@ -1,0 +1,191 @@
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #660000 !important;
+}
+h2 {
+  color: #000 !important;
+  text-align: center !important;
+  font-size: 28px !important;
+}
+h3 {
+  color: white !important;
+  text-align: center !important;
+  font-size: 26px !important;
+}
+body {
+  background-color: #fff;
+  font-family: Georgia, serif;
+}
+a.mylink {
+  color: #333333;
+}
+label {
+  color: white !important;
+}
+p {
+  text-align: center;
+  color: white !important;
+  font-size: 18px;
+}
+u {
+  color: white !important;
+}
+td {
+  text-align: center !important;
+}
+.mylabel {
+  color: #660000 !important;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline label {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 5px 10px 5px 0;
+  font-family: Georgia, serif;
+}
+.form-inline input {
+  font-size: 20px;
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  font-family: Georgia, serif;
+}
+button {
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-color: #655e5d;
+  color: white;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+.learn-more-button {
+  background-color: white !important;
+  color: #660000 !important;
+}
+.contact-button {
+  background-color: #660000 !important;
+  color: white !important;
+}
+
+.card-color {
+  background-color: #660000 !important;
+  color: white !important;
+}
+
+.navbar.is-maroon {
+  background-color: #660000;
+  color: #fff;
+}
+
+.navbar.is-maroon .navbar-brand > .navbar-item,
+.navbar.is-maroon .navbar-brand .navbar-link {
+  color: #fff;
+}
+
+.navbar.is-maroon .navbar-brand > a.navbar-item:focus, .navbar.is-maroon .navbar-brand > a.navbar-item:hover, .navbar.is-maroon .navbar-brand > a.navbar-item.is-active,
+.navbar.is-maroon .navbar-brand .navbar-link:focus,
+.navbar.is-maroon .navbar-brand .navbar-link:hover,
+.navbar.is-maroon .navbar-brand .navbar-link.is-active {
+  background-color: #460000;
+  color: #fff;
+}
+
+.navbar.is-maroon .navbar-brand .navbar-link::after {
+  border-color: #fff;
+}
+
+.navbar.is-maroon .navbar-burger {
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar.is-maroon .navbar-start > .navbar-item,
+  .navbar.is-maroon .navbar-start .navbar-link,
+  .navbar.is-maroon .navbar-end > .navbar-item,
+  .navbar.is-maroon .navbar-end .navbar-link {
+    color: #fff;
+  }
+  .navbar.is-maroon .navbar-start > a.navbar-item:focus, .navbar.is-maroon .navbar-start > a.navbar-item:hover, .navbar.is-maroon .navbar-start > a.navbar-item.is-active,
+  .navbar.is-maroon .navbar-start .navbar-link:focus,
+  .navbar.is-maroon .navbar-start .navbar-link:hover,
+  .navbar.is-maroon .navbar-start .navbar-link.is-active,
+  .navbar.is-maroon .navbar-end > a.navbar-item:focus,
+  .navbar.is-maroon .navbar-end > a.navbar-item:hover,
+  .navbar.is-maroon .navbar-end > a.navbar-item.is-active,
+  .navbar.is-maroon .navbar-end .navbar-link:focus,
+  .navbar.is-maroon .navbar-end .navbar-link:hover,
+  .navbar.is-maroon .navbar-end .navbar-link.is-active {
+    background-color: #460000;
+    color: #fff;
+  }
+  .navbar.is-maroon .navbar-start .navbar-link::after,
+  .navbar.is-maroon .navbar-end .navbar-link::after {
+    border-color: #fff;
+  }
+  .navbar.is-maroon .navbar-item.has-dropdown:focus .navbar-link,
+  .navbar.is-maroon .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar.is-maroon .navbar-item.has-dropdown.is-active .navbar-link {
+    background-color: #460000;
+    color: #fff;
+  }
+
+  .navbar.is-maroon .navbar-dropdown a.navbar-item.is-active {
+    background-color: #660000;
+    color: #fff;
+  }
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height: auto;
+}
+/*option {
+  font-size: 20px;
+  font-family: Georgia, serif;
+}
+select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  height: 37px;
+}*/
+.myfooter {
+  background-color: #660000;
+  padding: 3rem 1.5rem 2.8rem;
+}
+.facebook {
+  color: #ffffff;
+}
+.facebook:hover {
+  color: #ffffff;
+}
+.twitter {
+  color: #ffffff;
+}
+.twitter:hover {
+  color: #ffffff;
+}
